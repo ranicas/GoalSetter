@@ -1,0 +1,470 @@
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:46:33 -0800
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:46:33 -0800
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:46:33 -0800
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:46:33 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:47:43 -0800
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 44ms
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:47:43 -0800
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 1ms
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:47:43 -0800
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 1ms
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:47:43 -0800
+Processing by UsersController#new as HTML
+Completed 500 Internal Server Error in 1ms
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:48:36 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 932ms (Views: 915.7ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:48:37 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:48:37 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:48:37 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:48:54 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 43ms (Views: 26.0ms | ActiveRecord: 0.4ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:48:54 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:48:54 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:48:54 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (8.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:51:51 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 45ms (Views: 29.4ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:51:51 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:51:51 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:51:51 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:52:27 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 44ms (Views: 29.4ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:52:27 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:52:27 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:52:27 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+Started POST "/users" for 127.0.0.1 at 2014-11-03 11:52:27 -0800
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"xjSS/GwDXmVnpyhcWn6pxADVtTgWCy5jB1/wEeYI/as=", "user"=>{"username"=>"coolcat29", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 4ms
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:52:27 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-03 19:52:27.611090"], ["password_digest", "$2a$10$ZMHvreAwn5gyFy2mf5dGyuNXxIFXM3q47.8iqT8JC6HlmVN5g4/am"], ["session_token", "0PEnFSBCjwOOdHjldCfriQ"], ["updated_at", "2014-11-03 19:52:27.611090"], ["username", "coolcat29"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-03 19:52:27.711253"], ["password_digest", "$2a$10$qTarQEH.Vzx1kCUhjynSNOH/f7TAyKU4jf9z8VF/OPskH5yXPuP6."], ["session_token", "If3p-OqclTl1tXlJkwaJiw"], ["updated_at", "2014-11-03 19:52:27.711253"], ["username", "coolcat29"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:54:33 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 46ms (Views: 28.2ms | ActiveRecord: 0.4ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:54:33 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:54:33 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:54:33 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+Started POST "/users" for 127.0.0.1 at 2014-11-03 11:54:33 -0800
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"lM8WrbnIo1hnp22YLpkpoCoxdR7XPWFlr8GV862cOwI=", "user"=>{"username"=>"coolcat29", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 3ms
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:54:33 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-03 19:54:33.590196"], ["password_digest", "$2a$10$XbELD5lmrVqg9S99jfpF8O2Wst7QgAN6afsoyZ0/8IrDZuAXmIcpO"], ["session_token", "LZLXxqBR7AaXGaOmcU74cA"], ["updated_at", "2014-11-03 19:54:33.590196"], ["username", "coolcat29"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-03 19:54:33.680569"], ["password_digest", "$2a$10$nx2o1akCnFZ8m3PLbHk.veUPiCSUEKquySAfRCIm1bGEhLh7kFbiC"], ["session_token", "GEARH1kIkppZlFicKgUzsA"], ["updated_at", "2014-11-03 19:54:33.680569"], ["username", "coolcat29"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:55:12 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 40ms (Views: 28.6ms | ActiveRecord: 0.4ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:55:12 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:55:12 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:55:12 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+Started POST "/users" for 127.0.0.1 at 2014-11-03 11:55:12 -0800
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"lfyM7ySecpkUxJo+x40RuGODzvdZ158eQARvX37xXcs=", "user"=>{"username"=>"coolcat29", "password"=>"[FILTERED]"}}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-03 19:55:12.889592"], ["password_digest", "$2a$10$LyPWkaRkc22/p2QJNMPkh.bCMwjiaHoGtlNC2D0XdVFUnqZiyloye"], ["session_token", "EWaoAPqrgd3bRoObO0wASQ"], ["updated_at", "2014-11-03 19:55:12.889592"], ["username", "coolcat29"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Completed 500 Internal Server Error in 88ms
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:55:12 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-03 19:55:12.987177"], ["password_digest", "$2a$10$F2vbwbiAFAgq.b2fDbvDQ.tu7bikMA2a1w2AxSPAvT.DeYK7Fhdfm"], ["session_token", "Vfe_83Tfsmmc7mv0QAN6iQ"], ["updated_at", "2014-11-03 19:55:12.987177"], ["username", "coolcat29"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-03 19:55:13.075679"], ["password_digest", "$2a$10$znHqT5TKIPi6sGf7rf5MkOArhj1Vto7iND.bqrW0c2PtEg/ouhJLW"], ["session_token", "zxdzHyQRuAp6dGO6qISjDw"], ["updated_at", "2014-11-03 19:55:13.075679"], ["username", "coolcat29"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:58:11 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 41ms (Views: 25.6ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:58:11 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:58:11 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:58:11 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+Started POST "/users" for 127.0.0.1 at 2014-11-03 11:58:11 -0800
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"0NYFTw+BODlh1Ew8vn0rkiiWSqnU9BCP6JVWa1CNwo4=", "user"=>{"username"=>"coolcat29", "password"=>"[FILTERED]"}}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-03 19:58:11.849316"], ["password_digest", "$2a$10$Y8vyOGlijbsnjiQmUin3pe3UBwofvpAtyWXpvI3t36FRI8HAVzo.W"], ["session_token", "MxqHtxK3SHtQM48uOt_zyA"], ["updated_at", "2014-11-03 19:58:11.849316"], ["username", "coolcat29"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Completed 500 Internal Server Error in 94ms
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 11:58:11 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-03 19:58:11.951340"], ["password_digest", "$2a$10$UbdlgUuvSntB7230je83qeivayUQekexO0HUB3nQ0t2NvZFtFuujq"], ["session_token", "gRo0wF6clXIIN9h3aDzFLA"], ["updated_at", "2014-11-03 19:58:11.951340"], ["username", "coolcat29"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-03 19:58:12.037647"], ["password_digest", "$2a$10$phFCkZ2H8ZS/ehOGVOkyj.blFxE7zPOyMMpFCBuhBg46TfpkPNZ4q"], ["session_token", "v9yM_7nF544RusEweafjhA"], ["updated_at", "2014-11-03 19:58:12.037647"], ["username", "coolcat29"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 12:00:24 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 38ms (Views: 24.7ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 12:00:24 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 12:00:24 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 12:00:24 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+Started POST "/users" for 127.0.0.1 at 2014-11-03 12:00:24 -0800
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"q6l5zyD9XQcP1bj2UrYuKpVqDFJLo3D0WcALtRaFwIs=", "user"=>{"username"=>"coolcat29", "password"=>"[FILTERED]"}}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-03 20:00:24.583980"], ["password_digest", "$2a$10$8b8kc9WCGF2b8.ni1JXSMee5WI5yGlCUNQ/hF/axWDnCxmn8Xadh6"], ["session_token", "YEbUgT7zoQFOh0gP8IVmBQ"], ["updated_at", "2014-11-03 20:00:24.583980"], ["username", "coolcat29"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Completed 500 Internal Server Error in 103ms
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 12:00:24 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 12:00:24 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+Started POST "/users" for 127.0.0.1 at 2014-11-03 12:00:24 -0800
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"NphsKW0uh4WpQ2SNfnELH84S1/yyLnAonJ8GcVYFeCs=", "user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 564ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-03 20:00:25.342509"], ["password_digest", "$2a$10$9ilV8JnwNbFgjWIvV0J3PupRUg5mhyLTlU553yFzujayakJBRCiPK"], ["session_token", "5W4K_SYHwwfpRDl9w2Lb3w"], ["updated_at", "2014-11-03 20:00:25.342509"], ["username", "coolcat29"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-03 20:00:25.505489"], ["password_digest", "$2a$10$.WW1j68SfYL9Fskosz.FheKlGvw6R3rGF9R0oOzk5AVEZ66VVElgu"], ["session_token", "yMmJ8MXSTTCfh2R831AR_A"], ["updated_at", "2014-11-03 20:00:25.505489"], ["username", "coolcat29"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 12:00:44 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 41ms (Views: 28.2ms | ActiveRecord: 0.4ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 12:00:44 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 12:00:44 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 12:00:44 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+Started POST "/users" for 127.0.0.1 at 2014-11-03 12:00:44 -0800
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"rN6xPKeZWYjJyRw+VaQZhOkkW5oRQZoHfOqIx46/qKw=", "user"=>{"username"=>"coolcat29", "password"=>"[FILTERED]"}}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-03 20:00:44.680213"], ["password_digest", "$2a$10$Au5DqFl9KwTo5mjDI/n5/OMLv.ruzHk4iVrrqWeTd6lgilkw7yzGe"], ["session_token", "ymieJGojcrbJONq_hKgYAA"], ["updated_at", "2014-11-03 20:00:44.680213"], ["username", "coolcat29"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Completed 500 Internal Server Error in 97ms
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 12:00:44 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+Started GET "/users/new" for 127.0.0.1 at 2014-11-03 12:00:44 -0800
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+Started POST "/users" for 127.0.0.1 at 2014-11-03 12:00:44 -0800
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"6dO6U7qNFT46v6Gc0+8ONQ6GTB9TPqBfr9mJQ7iQtBw=", "user"=>{"username"=>"", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 499ms (Views: 1.0ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2014-11-03 20:00:45.377674"], ["password_digest", "$2a$10$VyCfkI43eziQjSVwBToRBudM0J1bkUDE6rinvO6yS4W4viEaK.ykW"], ["session_token", "LSzHeigGT6SOYWDbIWu6vg"], ["updated_at", "2014-11-03 20:00:45.377674"], ["username", "coolcat29"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)  [["created_at", "2014-11-03 20:00:45.553036"], ["password_digest", "$2a$10$FASEek8HKs1Np9VaIyk9OOoADxGHm3/XqLGA4utFzq7GkyGlrNmWu"], ["session_token", "gU4NyBWzFwmkaeOxzn24Lw"], ["updated_at", "2014-11-03 20:00:45.553036"], ["username", "coolcat29"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction

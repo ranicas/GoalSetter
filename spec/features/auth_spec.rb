@@ -54,7 +54,7 @@ feature "signing out" do
   it "doesn't show username on the homepage after sign out" do
     user = FactoryGirl.build(:user)
     sign_in(user)
-    sign_out(user)
+    sign_out
     expect(page).to_not have_content(user.username)
     expect(page).to have_content("Sign In")
   end

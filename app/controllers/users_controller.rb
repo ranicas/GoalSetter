@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+  before_action :require_signout
   def new
     @user = User.new
   end
@@ -6,6 +7,7 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
+      sign_in!(@user)
       redirect_to goals_url
     else 
       flash.now[:errors] = @user.errors.full_messages

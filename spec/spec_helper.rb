@@ -96,7 +96,6 @@ def sign_up(user)
 end
 
 def sign_in(user)
-  user.save
   visit new_session_url
   fill_in "Username", with: user.username
   fill_in "Password", with: user.password

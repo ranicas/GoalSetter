@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GoalSetters</title>
+  <link data-turbolinks-track="true" href="/assets/application.css" media="all" rel="stylesheet" />
+  <script data-turbolinks-track="true" src="/assets/application.js"></script>
+  
+</head>
+<body>
+
+  <a href="http://www.example.com/session/new">Sign In</a>
+  <a href="http://www.example.com/users/new">Sign Up</a>
+
+  <ul>
+      <li>invalid username and password combination</li>
+      <li>#&lt;User:0x007fdbac5a37c0&gt;</li>
+  </ul>
+<h1>Sign In</h1>
+<form  action="http://www.example.com/session" method="POST">
+  <input type="hidden" name="authenticity_token" value="DWr1Z3Zq5x6DbM4cQsYqMNtlUzQXtpxqVHNsP3simPk=">
+  <label>Username<input type="text" name="user[username]" value="coolcat29" ></label>
+  <label>Password<input type="text" name="user[password]" value=""></label>
+  <input type="submit" value="Sign In">
+</form>
+
+</body>
+</html>

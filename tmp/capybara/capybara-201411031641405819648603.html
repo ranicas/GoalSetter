@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GoalSetters</title>
+  <link data-turbolinks-track="true" href="/assets/application.css" media="all" rel="stylesheet" />
+  <script data-turbolinks-track="true" src="/assets/application.js"></script>
+  
+</head>
+<body>
+
+  Welcome coolcat29
+  <form action="http://www.example.com/session" class="button_to" method="post"><div><input name="_method" type="hidden" value="delete" /><input type="submit" value="Sign Out" /></div></form>
+
+  </ul>
+<h1>Create New Goal</h1>
+<form  action="http://www.example.com/goals" method="POST">
+  <input 
+    type="hidden" 
+    name="authenticity_token" 
+    value="uCXgoj/19msX/yzerhCMnPubZHUMEg4ci2RI1/9b2M8=">
+    
+  <label>Body<textarea name="goal[body]"></textarea></label>
+  
+  
+  <label>Status
+    <select name="goal[status]">
+      <option value="PUBLIC" 
+              
+      >Public</option>
+      
+      <option value="PRIVATE" 
+      
+      
+              selected
+      >Private</option>        
+    </select>
+  </label>
+  <input type="submit" value="Create New Goal">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<h1>Create New Goal</h1>
+<form  action="<%= goals_url %>" method="POST">
+  <input 
+    type="hidden" 
+    name="authenticity_token" 
+    value="<%= form_authenticity_token %>">
+    
+  <label>Body<textarea name="goal[body]"><%= @goal.body %></textarea></label>
+  
+  
+  <label>Status
+    <select name="goal[status]">
+      <option value="PUBLIC" 
+              <%= "selected" if @goal.status == "PUBLIC" %>
+      >Public</option>
+      
+      <option value="PRIVATE" 
+      
+      
+              <%= "selected" if @goal.status == "PRIVATE" %>
+      >Private</option>        
+    </select>
+  </label>
+  <input type="submit" value="Create New Goal">
+</form>

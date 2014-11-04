@@ -1,1 +1,6 @@
-STUFF WILL BE HERE
+<ul>
+  <% @goals.each do |goal| %>
+    <li><%= goal.body %></li>
+  <% end %>
+</ul>
+<%= link_to "Create New Goal", new_goal_url %>

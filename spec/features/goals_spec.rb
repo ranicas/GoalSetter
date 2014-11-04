@@ -1,33 +1,33 @@
 require 'spec_helper'
 feature 'goals' do
-  
-  let(:cat_user) do
+    
     user = FactoryGirl.build(:user)
     cat_user = User.find_by(username: user.username)
     cat_user.password = user.password
-    cat_user
-  end
-  
-  let(:dog_user) do
+    
+    
     user = FactoryGirl.build(:dog_user)
     dog_user = User.find_by(username: user.username)
     dog_user.password = user.password
-    dog_user
+    
+    
+  before(:all) do
+    goal = FactoryGirl.build(:public_goal)
+    goal.user_id = cat_user.id
+    goal.save
+    
+    goal = FactoryGirl.build(:private_goal)
+    goal.user_id = cat_user.id
+    goal.save
   end
   
-  let(:public_goal) do
-     goal = FactoryGirl.build(:public_goal)
-     goal.user_id = cat_user.id
-     goal.save
-     goal
-   end
+  let(:cat_user) { cat_user }
+  
+  let(:dog_user) { dog_user }
+
+  let(:public_goal) { cat_user.goals.where(status: "PUBLIC").first }
    
-  let(:private_goal) do
-     goal = FactoryGirl.build(:private_goal)
-     goal.user_id = cat_user.id
-     goal.save
-     goal
-   end
+  let(:private_goal) { cat_user.goals.where(status: "PRIVATE").first }
   
   before(:each) do
     sign_in(cat_user)
@@ -142,8 +142,8 @@ feature 'goals' do
     end
 
     scenario "index page has a list of goals viewable to user" do
-      public_goal = cat_user.goals.where(status: "PUBLIC").first
-      private_goal = cat_user.goals.where(status: "PRIVATE").first
+      # public_goal = cat_user.goals.where(status: "PUBLIC").first
+#       private_goal = cat_user.goals.where(status: "PRIVATE").first
       expect(page).to have_content(public_goal.body)
       expect(page).to have_content(private_goal.body)
     end
@@ -151,8 +151,9 @@ feature 'goals' do
     scenario "user should not see other users' private goals" do
       sign_out
       sign_in(dog_user)
-      public_goal = cat_user.goals.where(status: "PUBLIC").first
-      private_goal = cat_user.goals.where(status: "PRIVATE").first
+      save_and_open_page
+      # public_goal = cat_user.goals.where(status: "PUBLIC").first
+      # private_goal = cat_user.goals.where(status: "PRIVATE").first
       expect(page).to_not have_content(private_goal.body)
       expect(page).to have_content(public_goal.body)
     end
